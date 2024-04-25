@@ -106,7 +106,7 @@ end
 local CheetoUI = {}
 CheetoUI.__index = CheetoUI
 
-function CheetoUI:new()
+function CheetoUI.new()
     local self = setmetatable({}, CheetoUI)
     
     self.gui = Instance.new("ScreenGui")
